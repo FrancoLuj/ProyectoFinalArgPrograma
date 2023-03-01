@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/435a7cc4d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilosProyecto.css">
+    <title>Mi Curriculum Vitae</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1 id="miNombre">FRANCO NICOLAS LUJAN</h1>
+        <div class="contenedorFoto">
+            <img id="Foto" src="Francoperfil.jpg" alt="Foto de perfil" />
+        </div>    
+        <div class="botonesRedes">
+            <a href="https://www.facebook.com/FrancoNLujan" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/francolujann/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/franco-nicolas-lujan/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </div>
+    
+    <div class="apartados">
+        <section class="xpLab">
+            <a href="#" class="titulos" onclick="mostrar();"><b>EXPERIENCIA LABORAL</b><i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="menu1" id="menu1">
+                <li class="submenu"  onclick="mostrar2();"><u><b>AUTOTAG VOLKSWAGEN</b></u></li>
+                    <p class="info1" id="job1">Atención de salón y telefónica para la venta de vehículos 0km y usados. Carga
+                    de créditos prendarios en diferentes plataformas bancarias. Asesoramiento,
+                    seguimiento y fidelización de clientes a través de CRM. Reemplazo de
+                    supervisor (Ausencias/Vacaciones).</p>
+                <li class="submenu" onclick="mostrar3();"><u><b>ESPACIO MUJER</b></u></li>        
+                    <p class="info1" id="job2" >Local de indumentaria propio. Atención al cliente, ventas y fidelización de
+                    clientes tanto de manera presencial como a través de redes sociales.</p>
+                <li class="submenu" onclick="mostrar4();"><u><b>JUMBO RETAIL</b></u></li>   
+                    <p class="info1" id="job3">Asesor de ventas y atención al cliente. Control de stock, ingreso de clientes y
+                    envíos de mercadería a través de sistemas de gestión. Sector
+                    electrodomésticos y tecnología.</p>         
+            </ul>
+
+        </section>
+
+        <section class="datosPersonales">
+            <a href="#" class="titulos" onclick="mostrar5();"><b>SOBRE MI</b><i class="fa-solid fa-chevron-down" id="boton2"></i></a>
+            
+            <ul class="menu2" id="menu2">
+                <li class="submenu" onclick="mostrar6();"><u><b>PERFIL PERSONAL</b></u></li>
+                    <p class="info2" id="infoPers">Me considero una persona resolutiva y proactiva, logrando resolver múltiples
+                        tareas a la vez, sin perder el foco en la calidad y en la organización. Mi objetivo
+                        radica en trabajar de forma detallada, focalizando en el aprendizaje para
+                        conseguir desarrollar y profundizar conocimientos y habilidades en el ámbito que me sea requerido.</p>
+
+                <li class="submenu" onclick="mostrar7();"><u><b>CONTACTO</b></u></li>
+                    <a class="info2" id="infoCont" href="https://api.whatsapp.com/send/?phone=5491130329686" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>        
+                    <a class="info2" id="infoCont2" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBJRpjjkhtzzNBBsflhKFVtlLcMXTPTcbjrLsXqxRDpvtPGBrSLRPLMVGPlKRplXBFQCT" target="_blank"><i class="fa-regular fa-envelope"></i>Gmail</a>        
+                
+            </ul>
+            
+        </section>
+
+        <section class="formAcademica">
+            <a href="#" class="titulos" onclick="mostrar8()";><b>FORMACION ACADEMICA</b><i class="fa-solid fa-chevron-down" id="boton3"></i></a> 
+            <ul class="menu3" id="menu3">
+                <li class="submenu" onclick="mostrar9()";><u><b>INGENIERIA INFORMÁTICA</b></u></li>
+                    <p class="info3" id="infoUni">UNAJ (Universidad Nacional Arturo Jauretche) - 2017/Actualidad</p>
+            </ul>
+
+        </section>
+
+
+
+
+
+
+    </div>
+    <script src="funcion.js"></script>
+</body>
+</html> 
